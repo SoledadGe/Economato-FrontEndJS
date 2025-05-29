@@ -23,5 +23,5 @@ Esta página web es el proyecto de pre-entrega para el curso Talento Tech. Se tr
 
 - Uso de Flexbox en alguna sección
 
-- Sitio desplegado GitHub Pages: 
+- Sitio desplegado GitHub Pages: https://soledadge.github.io/Economato-FrontEndJS/
 
