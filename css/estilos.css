@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #bdf4e2;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+textarea{
+    resize: none;
+}
+
+.fondo{
+    background-image: url("../media/img/fondo.png");
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content:space-evenly;
+    border-bottom: 4px solid rgb(26, 158, 147);
+    padding-bottom: 10px;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 32px;
+}
+
+
+.tilt-neon {
+    font-family: "Tilt Neon", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "XROT" 0,
+      "YROT" 0;
+  }
+
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    gap: 30px;
+}
+
+.contacto{
+    width: 400px;
+    margin: 50px auto;
+}
+
+form{
+    display: flex;
+    flex-direction:column;
+}
+
+.mapa{
+    width: 400px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction:column;
+
+}
+
+.pie-de-pagina{
+    background-color: rgb(26, 158, 147);
+    color: white;
+}
+
