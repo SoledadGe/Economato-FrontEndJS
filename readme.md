@@ -29,3 +29,6 @@ Esta página web es un proyecto BÁSICO para el curso de Talento Tech. Se trata 
     Validación de datos
     Mensaje de error
     Envío a FormSpree
+
+## Github Pages
+https://soledadge.github.io/Economato-FrontEndJS/
