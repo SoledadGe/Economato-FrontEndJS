@@ -7,68 +7,39 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body class="tilt-neon">
     <header>
         <div class="encabezado fondo">
-            <img src="./media/img/logo.png" alt="" height="200" width="200">
+            <img src="../media/img/logo.png" alt="" height="200" width="200">
         </div>
         <nav>
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#direccion">Direccion</a></li>
-                <li><a href="#productos">Productos</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-                <li><a href="./pages/formulario.html">Suscripción</a></li>
+                <li><a href="../index.html#">Inicio</a></li>
+                <li><a href="../index.html#direccion">Direccion</a></li>
+                <li><a href="../index.html#productos">Productos</a></li>
+                <li><a href="../index.html#contacto">Contacto</a></li>
+                <li><a href="#">Suscripción</a></li>
             </ul>
         </nav>
     
     </header>
     <main>
-        <section id="productos">
-            <h1 class="titulo tilt-neon">
-                Productos destacados
-            </h1>
-            <div class="productos">
-                <div class="producto">
-                    <img width="200" height="200"  src="./media/img/nitrilo.png" alt="guantes de nitrilo">
-                    <h2>Guantes Nitrilo</h2>
-                    <p>10x$30000</p>
-                </div>
-                <div class="producto">
-                    <img width="200" height="200"  src="./media/img/latex.png" alt="guantes de latex">
-                    <h2>Guantes latex</h2>
-                    <p>10x$20000</p>
-                </div>
-                <div class="producto">
-                    <img width="200" height="200"  src="./media/img/barbijo.png" alt="barbijos">
-                    <h2>Barbijos</h2>
-                    <p>10x$10000</p>
-                </div>
-                <div class="producto">
-                    <img width="200" height="200"  src="./media/img/cofia.png" alt="cofias">
-                    <h2>Cofias</h2>
-                    <p>10x$8000</p>
-                </div>
-            </div>
-        </section>
-        <section class="contacto" id="contacto">
-            <h1 class="titulo">Contacto</h1>
+        <section class="contacto" id="suscripcion">
+            <h1 class="titulo">Newsletter</h1>
             <p>
-                Nuestros canales de atención están disponibles.
-                Comunícate con nosotros y seguinos en redes sociales
+                ¿Querés recibir ofertas, novedades y promociones?
+                SUSCRIBITE A NUESTRO NEWSLETTER
             </p>
-            <form>
+            <form id="formulario" action="https://formspree.io/f/xeozowpr" method="POST" novalidate>
                 <input type="text" name="nombre" id="nombre" placeholder="ingrese su nombre">
+                <input type="number" name="edad" id="edad" placeholder="ingrese su edad">
                 <input type="email" name="email" id="email" placeholder="ingrese su email">
-                <textarea name="mensaje" id="mensaje" placeholder="deje su mensaje o consulta" rows="8"></textarea>
-                <input type="button" value="enviar">
+                <button type="submit" id="suscribir">suscribirme</button>
+                <p style="color: red;" id="error"></p>
+
             </form>
-        </section>
-        <section class="mapa" id="direccion">
-            <h1 class="titulo">Visitanos en Junin 979-CABA</h1>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2732.603577929513!2d-58.39978342426008!3d-34.59768897295647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sJun%C3%ADn%20979%2C%20C1113%20AAC%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e1!3m2!1ses-419!2sar!4v1748385360745!5m2!1ses-419!2sar" style="border:10;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
     </main>
     <footer class="pie-de-pagina fondo">
@@ -77,5 +48,6 @@
         <svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" width="25" height="25" preserveAspectRatio="xMidYMid"><defs><linearGradient id="a" x1="50%" x2="50%" y1="0%" y2="100%"><stop offset="0%" stop-color="#2AABEE"/><stop offset="100%" stop-color="#229ED9"/></linearGradient></defs><path fill="url(#a)" d="M128 0C94.06 0 61.48 13.494 37.5 37.49A128.038 128.038 0 0 0 0 128c0 33.934 13.5 66.514 37.5 90.51C61.48 242.506 94.06 256 128 256s66.52-13.494 90.5-37.49c24-23.996 37.5-56.576 37.5-90.51 0-33.934-13.5-66.514-37.5-90.51C194.52 13.494 161.94 0 128 0Z"/><path fill="#FFF" d="M57.94 126.648c37.32-16.256 62.2-26.974 74.64-32.152 35.56-14.786 42.94-17.354 47.76-17.441 1.06-.017 3.42.245 4.96 1.49 1.28 1.05 1.64 2.47 1.82 3.467.16.996.38 3.266.2 5.038-1.92 20.24-10.26 69.356-14.5 92.026-1.78 9.592-5.32 12.808-8.74 13.122-7.44.684-13.08-4.912-20.28-9.63-11.26-7.386-17.62-11.982-28.56-19.188-12.64-8.328-4.44-12.906 2.76-20.386 1.88-1.958 34.64-31.748 35.26-34.45.08-.338.16-1.598-.6-2.262-.74-.666-1.84-.438-2.64-.258-1.14.256-19.12 12.152-54 35.686-5.1 3.508-9.72 5.218-13.88 5.128-4.56-.098-13.36-2.584-19.9-4.708-8-2.606-14.38-3.984-13.82-8.41.28-2.304 3.46-4.662 9.52-7.072Z"/></svg>
     </footer>
     
+    <script src="../js/formulario.js"></script>
 </body>
 </html>

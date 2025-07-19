@@ -1,8 +1,8 @@
 # Economato Dental
 ## Descripción
-Esta página web es el proyecto de pre-entrega para el curso Talento Tech. Se trata de un sitio web básico desarrollado con HTML para la estructura y CSS para el diseño y estilos. Incluye una organización semántica, menú de navegación, formulario de contacto y elementos multimedia, siguiendo las buenas prácticas aprendidas en clase.
+Esta página web es un proyecto BÁSICO para el curso de Talento Tech. Se trata de un sitio web desarrollado con HTML para la estructura y CSS para el diseño y estilos y JavaScript para la lógica. Incluye una organización semántica, menú de navegación, formulario de contacto y elementos multimedia, y un formulario con validación de datos siguiendo las buenas prácticas aprendidas en clase.
 
-## Requisitos incluidos:
+## Requisitos del trabajo:
 
 - Proyecto tipo sitio web funcional con estructura:
     Carpetas: pages/, css/, js/, media/
@@ -13,7 +13,7 @@ Esta página web es el proyecto de pre-entrega para el curso Talento Tech. Se tr
 
 - Sección con logo y menú ( Inicio, Dirección, Productos, Contacto)
 
-- Formulario con:
+- Formulario de contacto con:
     Campo nombre
     Campo email
     Campo mensaje (textarea)
@@ -23,5 +23,9 @@ Esta página web es el proyecto de pre-entrega para el curso Talento Tech. Se tr
 
 - Uso de Flexbox en alguna sección
 
-- Sitio desplegado GitHub Pages: https://soledadge.github.io/Economato-FrontEndJS/
+- Sitio desplegado GitHub Pages: 
 
+- Formulario de suscripción con:
+    Validación de datos
+    Mensaje de error
+    Envío a FormSpree
